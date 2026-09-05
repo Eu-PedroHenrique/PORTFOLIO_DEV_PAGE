@@ -1,0 +1,56 @@
+#apresentation {
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 1366px;
+
+  margin: auto;
+}
+
+.foto-perfil {
+  padding-top: 120px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.font-subtitle {
+  font: var(--subtitle-inconsolata);
+  color: var(--base-color-gray-200);
+}
+
+.title-lg {
+  font: var(--title-lg-asap);
+  color: var(--base-color-gray-100);
+}
+
+.text-sm-maven {
+  font: var(--text-sm-maven);
+  color: var(--base-color-gray-300);
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.introtext {
+  margin-left: 343px;
+  margin-right: 343px;
+}
+
+.languages {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.seta {
+  text-align: center;
+  margin-top: 94px;
+  margin-bottom: 57px;
+}

@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 :root {
@@ -22,10 +21,18 @@
   --title-md-asap: 800 24px/120% var(--font-family-asap);
   --title-sm-asap: 800 16px/120% var(--font-family-asap);
 
-  --font-family-incosolata: "Inconsolata", monospace;
-  --subtitle-incosolata: 400 20px/120% var(--font-family-incosolata);
+  --font-family-inconsolata: "Inconsolata", monospace;
+  --subtitle-inconsolata: 400 20px/120% var(--font-family-inconsolata);
 
   --font-family-maven: "Maven Pro", sans-serif;
   --text-md-maven: 400 16px/140% var(--font-family-maven);
   --text-sm-maven: 400 14px/140% var(--font-family-maven);
+}
+
+.highlight-primary {
+  color: var(--main-color-red);
+}
+
+.highlight-secondary {
+  color: var(--main-color-purple);
 }
