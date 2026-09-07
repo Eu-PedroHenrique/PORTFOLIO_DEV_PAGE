@@ -36,3 +36,7 @@
 .highlight-secondary {
   color: var(--main-color-purple);
 }
+
+body {
+  background-color: #292c34;
+}

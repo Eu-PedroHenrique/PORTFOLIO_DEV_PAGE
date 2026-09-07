@@ -7,6 +7,10 @@
   width: 1366px;
 
   margin: auto;
+
+  p {
+    text-align: center;
+  }
 }
 
 .foto-perfil {
@@ -28,10 +32,6 @@
 .text-sm-maven {
   font: var(--text-sm-maven);
   color: var(--base-color-gray-300);
-}
-
-p {
-  text-align: center;
 }
 
 h1 {
