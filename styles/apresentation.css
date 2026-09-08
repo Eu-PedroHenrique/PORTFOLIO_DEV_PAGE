@@ -19,7 +19,7 @@
   margin-bottom: 56px;
 }
 
-.font-subtitle {
+.project-title {
   font: var(--subtitle-inconsolata);
   color: var(--base-color-gray-200);
 }

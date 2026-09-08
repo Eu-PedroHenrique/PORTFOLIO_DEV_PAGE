@@ -1,0 +1,36 @@
+#portifolio {
+  background-color: var(--base-color-gray-500);
+  background-position: center;
+
+  height: 917px;
+  width: 1366px;
+  margin: auto;
+
+  padding-top: 72px;
+}
+
+.polaroid {
+  background-color: var(--base-color-gray-400);
+  height: 280px;
+  width: 330px;
+  border-radius: 12px;
+}
+
+.images {
+  height: 156px;
+  width: 306px;
+  border-radius: 8px;
+  margin: 12px 12px 20px 12px;
+}
+
+.section-title {
+  text-align: center;
+  color: var(--main-color-red);
+  font: var(--subtitle-inconsolata);
+}
+
+h2 {
+  font: var(--title-md-asap);
+  text-align: center;
+  color: var(--base-color-gray-100);
+}
