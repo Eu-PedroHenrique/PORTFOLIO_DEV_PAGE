@@ -16,6 +16,11 @@
   border-radius: 12px;
 }
 
+.polaroid:hover {
+  outline: 1px solid var(--base-color-gray-300);
+  cursor: pointer;
+}
+
 .images {
   height: 156px;
   width: 306px;
