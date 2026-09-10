@@ -2,11 +2,12 @@
   background-color: var(--base-color-gray-500);
   background-position: center;
 
-  height: 917px;
-  width: 1366px;
+  max-height: 917px;
+  max-width: 1366px;
   margin: auto;
 
   padding-top: 72px;
+  padding-bottom: 144px;
 }
 
 .polaroid {
