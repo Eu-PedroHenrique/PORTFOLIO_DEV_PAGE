@@ -32,12 +32,22 @@
 
 .highlight-primary {
   color: var(--main-color-red);
+  font: var(--subtitle-inconsolata);
+  text-align: center;
 }
 
 .highlight-secondary {
   color: var(--main-color-purple);
+  font: var(--subtitle-inconsolata);
+  text-align: center;
 }
 
 body {
   background-color: #5a5d63;
+}
+
+h2 {
+  font: var(--title-md-asap);
+  text-align: center;
+  color: var(--base-color-gray-100);
 }

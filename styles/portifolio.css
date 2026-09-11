@@ -29,18 +29,6 @@
   margin: 12px 12px 24px 12px;
 }
 
-.section-title {
-  text-align: center;
-  color: var(--main-color-red);
-  font: var(--subtitle-inconsolata);
-}
-
-h2 {
-  font: var(--title-md-asap);
-  text-align: center;
-  color: var(--base-color-gray-100);
-}
-
 .projects-grid {
   display: grid;
   grid-template-columns: 330px 330px 330px;
