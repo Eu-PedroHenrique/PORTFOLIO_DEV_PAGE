@@ -19,17 +19,27 @@
   text-align: center;
 }
 
+.social-cards-grid {
+  display: grid;
+  justify-content: center;
+  gap: 16px;
+
+  padding-top: 48px;
+}
+
 .social-network {
   display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+
   background-color: var(--base-color-gray-400);
-  grid-template-columns: 400px 400px 400px;
   border-radius: 8px;
   height: 68px;
   width: 400px;
-  gap: 16px;
-  margin: auto;
+  grid-template-columns: 1fr 1fr;
 }
-
 .social-network:hover {
   outline: 1px solid var(--main-color-blue);
   cursor: pointer;
@@ -38,4 +48,30 @@
 .network-name {
   font: var(--text-md-maven);
   color: var(--base-color-gray-200);
+}
+
+.social-network-identity {
+  display: grid;
+  grid-template-columns: 28px 288px;
+  gap: 12px;
+  align-items: center;
+}
+
+.social-network:hover .contact-svg {
+  display: none;
+}
+
+.network-hidden {
+  display: none;
+}
+
+.social-network:hover .network-hidden {
+  display: block;
+}
+
+.link-arrow-svg {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto;
+  margin-left: 12px;
 }
