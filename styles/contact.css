@@ -61,17 +61,27 @@
   display: none;
 }
 
+.social-network:hover .network-hidden {
+  display: block;
+}
+.social-network:hover .link-arrow-svg {
+  display: none;
+}
+
+.social-network:hover .link-arrow-blue-svg {
+  display: block;
+}
+
 .network-hidden {
   display: none;
 }
 
-.social-network:hover .network-hidden {
-  display: block;
+.link-arrow-blue-svg {
+  display: none;
 }
 
 .link-arrow-svg {
   display: grid;
   align-items: center;
   grid-template-columns: auto;
-  margin-left: 12px;
 }
